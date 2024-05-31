@@ -45,6 +45,11 @@ sva:
       # site: site1
       # zone: us-west-1a
 
+    #total number of indexer clusters need in the deployment. 
+    totalCluster:
+    - name: cm-1
+    - name: cm-2
+    
     indexerClusters: []
       # - name: idx1
       #   site: site1
